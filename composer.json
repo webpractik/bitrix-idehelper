@@ -1,0 +1,20 @@
+{
+  "name": "webpractik/bitrix-idehelper",
+  "description": "Bitrix autocomplete classes solution",
+  "keywords": [
+    "bitrix",
+    "autocomplete",
+    "phpstorm"
+  ],
+  "type": "phpstorm-bitrix-idehelper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Владислав Важенин (vladislav251990)",
+      "email": "vva@webpractik.ru"
+    }
+  ],
+  "require": {
+    "composer/installers": ">=1.0.22 <2.0"
+  }
+}
