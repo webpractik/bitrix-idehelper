@@ -1,6 +1,7 @@
 <?php
 
 namespace Bitrix\Main\Entity\Field {
+    
     class  IReadable extends \Bitrix\Main\ORM\Fields\IReadable
     {
     }
@@ -11,6 +12,9 @@ namespace Bitrix\Main\Entity\Field {
 }
 
 namespace Bitrix\Main\Entity {
+    class DataManager extends \Bitrix\Main\ORM\Data\DataManager
+    {
+    }
     
     class BooleanField extends \Bitrix\Main\ORM\Fields\BooleanField
     {
