@@ -1,12 +1,12 @@
-<?php
+<?php /** @noinspection PhpHierarchyChecksInspection */
 
 namespace Bitrix\Main\Entity\Field {
     
-    class  IReadable extends \Bitrix\Main\ORM\Fields\IReadable
+    class  IReadable implements \Bitrix\Main\ORM\Fields\IReadable
     {
     }
     
-    class IStorable extends \Bitrix\Main\ORM\Fields\IStorable
+    class IStorable implements \Bitrix\Main\ORM\Fields\IStorable
     {
     }
 }
